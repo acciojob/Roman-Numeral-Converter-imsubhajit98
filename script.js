@@ -1,7 +1,7 @@
-// function convert(){
-// 	let num=document.getElementById("roman");
-// 	convertToRoman(num);
-// }
+function convert(){
+	let num=document.getElementById("roman");
+	convertToRoman(num);
+}
 
 function convertToRoman(num) {
   	const obj = {
