@@ -5,7 +5,7 @@ function convert(){
 	// let romanRes=document.getElementById("letter");
 	// romanRes.innerHTML=res;
 	
-	// convertToRoman(num);
+	convertToRoman(num);
 }
 
 function convertToRoman(num) {
