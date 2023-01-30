@@ -1,4 +1,4 @@
-let num=document.getElementbyId('roman').value;
+let num=document.getElementById('roman').value;
 function convertToRoman(num) {
   	const obj = {
       0:['M',1000], 
@@ -65,7 +65,9 @@ function convertToRoman(num) {
          }
       }
    }
-   return result;
+   // return result;
+	document.getElementById('letter').innerHTML=result;
+	
 }
 
 // console.log(convertToRoman(36));
